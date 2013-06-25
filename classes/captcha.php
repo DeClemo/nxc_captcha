@@ -36,6 +36,13 @@ class nxcCaptcha
 			$this->sessionKey = $sessionKey;
 		}
 		$this->regenerate = $regenerate;
+		
+		$ini = eZINI::instance( "site.ini" );
+		
+		// get a variable from the file.
+		$iniVar = $ini->variable( "BlockName", "Variable" );
+
+		$this->font = eZINI::instance( "captcha.ini" )->variable( "FontSettings", "fontFileLocation" );
 	}
 
 	public function createImage() {

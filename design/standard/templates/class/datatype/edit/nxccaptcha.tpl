@@ -1,6 +1,6 @@
 {ezcss_require(
 	array(
-		'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css',
+		'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/jquery-ui.css',
 		'colorpicker.css',
 		'nxc.captcha.css'
 	)
@@ -8,7 +8,7 @@
 {ezscript_require(
 	array(
 		'ezjsc::jquery',
-		'jquery-ui-1.8.16.custom.min.js',
+		'ezjsc::jqueryUI',
 		'nxc.captcha.js',
 		'colorpicker/eye.js',
 		'colorpicker/utils.js',
