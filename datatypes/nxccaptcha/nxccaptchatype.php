@@ -28,7 +28,7 @@ class nxcCaptchaType extends eZDataType
 		'width' => array(
 			'field'   => 'data_int3',
 			'min'     => 100,
-			'max'     => 500,
+			'max'     => 980,
 			'default' => 200
 		),
 		'height' => array(
